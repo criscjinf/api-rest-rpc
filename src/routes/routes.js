@@ -17,6 +17,6 @@ routes.use((req, res, next) => {
 routes.use('/users', users_route)
 routes.use('/users/:id_user/address', address_route)
 routes.use('/cities', cities_route)
-routes.use('/rpc', users_route)
+routes.use('/rpc', rpc_route)
 
 module.exports = routes
